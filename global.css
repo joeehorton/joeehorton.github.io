@@ -60,13 +60,13 @@ h4 {
 .project-description p {
   line-height: 28px;
   letter-spacing: -0.5px;
-  max-width: 460px;
+  max-width: 580px;
 }
 
 /* Typography and spacing for project summary*/
 
 section.next-up {
-  margin: 120px auto;
+  margin: 80px auto;
 }
 
 section.next-up h1 {
@@ -89,7 +89,7 @@ section.next-up h1 {
 /* Typography and Layout for the footer that lay in a case study */
 
 footer.case-study {
-  margin-bottom: 120px;
+  margin-bottom: 80px;
 }
 
 footer a:hover {
