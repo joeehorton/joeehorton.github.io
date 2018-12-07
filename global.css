@@ -211,7 +211,7 @@ div.project.last {
   }
   
   .next-up {
-    margin: 32px;
+    padding: 0px 32px;
   }
   
   div.index-wrapper {
