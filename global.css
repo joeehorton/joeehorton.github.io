@@ -20,7 +20,7 @@ div.progress {
   top: 0;
   left: 0;
   width: 100%;
-  height: 3px;
+  height: 2px;
 }
 
 div.bar {
@@ -28,7 +28,7 @@ div.bar {
   top: 0;
   left: 0;
   width: 0;
-  height: 3px;
+  height: 2px;
   background-color: #2357d3;
 }
 
@@ -46,7 +46,7 @@ h1 {
 }
 
 h3 {
-  margin-bottom: 0px 0px 12px 0px;
+  margin: 0px 0px 12px 0px;
   color: #666;
   font-size: 16px;
   font-weight: 400;
@@ -71,6 +71,10 @@ h4 {
 
 section.next-up {
   margin: 80px auto;
+}
+
+section.next-up .project:hover {
+  opacity: 0.6;
 }
 
 section.next-up h1 {
