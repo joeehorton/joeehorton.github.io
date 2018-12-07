@@ -206,8 +206,12 @@ div.project.last {
 
 @media only screen and (max-width: 640px) {
   
-  .copy, .next-up  {
+  .copy {
     margin: 60px 32px;
+  }
+  
+  .next-up {
+    margin: 32px;
   }
   
   div.index-wrapper {
