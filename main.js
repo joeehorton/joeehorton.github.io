@@ -1,13 +1,17 @@
 var thehours = new Date().getHours();
 var themessage;
+var nightowl = ('Greetings Nightowl!')
 var morning = ('Good Morning!');
 var afternoon = ('Good Afternoon!');
 var evening = ('Good Evening!');
 
-if (thehours >= 0 && thehours < 12) {
+if (thehours >= 0 && thehours < 4) {
+  themessage = nightowl;
+
+} else if (thehours >= 4 && thehours < 12) {
   themessage = morning;
 
-} else if (thehours >= 12 && thehours < 17) {
+}else if (thehours >= 12 && thehours < 17) {
   themessage = afternoon;
 
 } else if (thehours >= 17 && thehours < 24) {
