@@ -206,7 +206,15 @@ div.project.last {
 @media only screen and (max-width: 640px) {
   
   .copy  {
-    margin: 120px 32px;
+    margin: 60px 32px;
+  }
+  
+  div.index-wrapper {
+    margin: 0px auto;
+  }
+  
+  section.introduction {
+    padding: 0px;
   }
   
   section.project-description {
@@ -219,6 +227,20 @@ div.project.last {
   
   .flex h4 {
     margin-bottom: 18px;
+  }
+  
+  .hero-flex img {
+    max-width: 440px;
+    margin: 0 auto;
+  }
+  
+}
+
+@media only screen and (max-width: 420px) {
+  
+  .hero-flex img {
+    max-width: 340px;
+    margin: 0 auto;
   }
   
 }
