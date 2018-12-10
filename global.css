@@ -1,13 +1,17 @@
 body {
   font-family: "Work Sans", sans-serif;
   font-size: 16px;
-  line-height: 1.5; 
+  line-height: 26px; 
   margin: 0px;
   font-weight: 400;
 }
 
+/* Typography - Clean it up son!*/
+
 p {
+  font-size: 16px;
   margin: 0px;
+  letter-spacing: -0.4px;
 }
 
 a {
@@ -15,31 +19,13 @@ a {
   color: #000;
 }
 
-div.progress {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 2px;
-}
-
-div.bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background-color: #2357d3;
-}
-
-/* Typography for body and headers*/
-
 span {
   font-size: 14px;
 }
 
 h1 {
-  font-size: 26px;
+  font-size: 20px;
+  line-height: 32px;
   letter-spacing: -1px;
   font-weight: 400;
   margin: 0px;
@@ -63,11 +49,51 @@ h4 {
 
 .project-description p {
   line-height: 28px;
-  letter-spacing: -0.5px;
   max-width: 580px;
 }
 
-/* Typography and spacing for project summary*/
+section.projects h1 {
+  line-height: 24px;
+  padding-bottom: 6px;
+}
+
+.navigation:hover a {
+  opacity: 0.3;
+}
+
+.navigation a:hover {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+div.progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+}
+
+div.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #2357d3;
+}
+
+
+/* spacing for project summary*/
 
 section.next-up {
   margin: 80px auto;
@@ -77,21 +103,12 @@ section.next-up .project:hover {
   opacity: 0.6;
 }
 
-section.next-up h1 {
-  font-size: 20px;
-  margin: 0px;
-}
-
 /* This is key. I have set a wider max-width to a parent section with a margin 
    of zero auto. When I then apply a smaller max-width to child element without
    a margin zero auto. It falls back to an almost float left position. */
 
 .projects {
   max-width: 450px;
-}
-
-.project h1 {
-  padding-bottom: 6px;
 }
 
 /* Typography and Layout for the footer that lay in a case study */
@@ -158,16 +175,7 @@ div.index-wrapper {
   margin: 120px auto;
 }
 
-div.index-wrapper h1 {
-  font-size: 20px;
-  letter-spacing: -1px;
-}
 
-div.index-wrapper p {
-  font-size: 16px;
-  line-height: 26px;
-  letter-spacing: -0.4px;
-}
 
 .copy {
   max-width: 660px;
@@ -186,9 +194,6 @@ div.project.last {
   margin-bottom: 120px;
 }
 
-.project a {
-  display: inline-block;
-}
 
 .projects:hover .project {
   opacity: 0.3;
@@ -210,13 +215,6 @@ div.project.last {
   margin-right: 8px;
 }
 
-.navigation:hover a {
-  opacity: 0.3;
-}
-
-.navigation a:hover {
-  opacity: 1;
-}
 
 
 @media only screen and (max-width: 940px) {
