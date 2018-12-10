@@ -283,11 +283,28 @@ div.project.last {
   
 }
 
+
+
+@media only screen and (max-height: 630px) {
+  
+  .hero-flex img {
+    max-width: 520px;
+  }
+  
+}
+
+@media only screen and (max-height: 430px) {
+  
+  .hero-flex img {
+    max-width: 400px;
+  }
+  
+}
+
 @media only screen and (max-width: 420px) {
   
   .hero-flex img {
     max-width: 340px;
-    margin: 0 auto;
   }
   
 }
