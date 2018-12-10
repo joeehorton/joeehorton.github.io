@@ -19,6 +19,16 @@ a {
   color: #000;
 }
 
+a.default {
+  padding: 0px 4px;
+  border: 1px dashed black;
+}
+
+a.default:hover {
+  color: #666;
+  border-color: #666;
+}
+
 span {
   font-size: 14px;
 }
