@@ -189,7 +189,13 @@ section.graphite {
   background-color: #222;
   color: #eee;
   margin-bottom: 60px;
-  padding: 32px;
+  padding: 44px;
+  font-size: 18px;
+}
+
+section.graphite h1 {
+  line-height: 1.7;
+  font-size: 18px;
 }
 
 section.graphite a.default {
