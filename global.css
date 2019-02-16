@@ -182,32 +182,10 @@ section.hero {
 /* Styling of the index/home page */
 
 div.index-wrapper {
-  margin: 0px auto 120px auto;
+  margin: 120px auto 120px auto;
 }
 
-section.graphite {
-  background-color: #222;
-  color: #eee;
-  margin-bottom: 60px;
-  padding: 44px;
-  font-size: 18px;
-}
 
-section.graphite h1 {
-  line-height: 1.7;
-  font-size: 18px;
-}
-
-section.graphite a.default {
-  padding: 0px 4px;
-  border: 1px dashed #eee;
-  color: #eee
-}
-
-section.graphite a.default:hover {
-  color: #666;
-  border-color: #666;
-}
 .copy {
   max-width: 660px;
   margin: 0 auto;
